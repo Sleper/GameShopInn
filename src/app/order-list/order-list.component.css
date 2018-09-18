@@ -1,0 +1,39 @@
+.order-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.order-list-items {
+  width: 80%;
+  height: 100%;
+
+}
+
+.hover-row:hover {
+  cursor:pointer;
+}
+
+.hover-fullRow:hover {
+  color: white;
+  background-color: #007bff;;
+}
+
+
+.search {
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-icon {
+    background: url(../../assets/24_search.png) no-repeat scroll -108px 6px;
+    padding-left: 38px;
+}
+
+.image-property {
+    width: 40%;
+}

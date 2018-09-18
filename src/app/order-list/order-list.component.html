@@ -1,0 +1,31 @@
+<div class="form-inline my-2 my-lg-0 search">
+    <input type="text" class='search-icon form-control mr-sm-2 ' (keyup)="searchListener($event)" placeholder="Search">
+  </div>
+
+<div class="order-list">
+  <div class="order-list-items">
+  <table class="table">
+      <thead class="thead-light">
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Price</th>
+        <th scope="col">Release Date</th>
+        <th scope="col">Unique Id</th>
+        <th scope="col">Order Id</th>
+        <th scope="col">Cancel Order</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let order of orders" class="hover-fullRow">
+        <td scope="col">{{order.name}}</td>
+        <td scope="col">{{order.price}}</td>
+        <td scope="col">{{order.releaseDate}}</td>
+        <td scope="col">{{order.uniqueId}}</td>
+        <td scope="col">{{order.id}}</td>
+        <td scope="col"><button type="button" class="btn btn-secondary" (click)="cancelOrder($event)" id={{order.id}}>Cancel</button></td>
+        <td></td>
+      </tr>
+      </tbody>
+  </table>
+</div>
+</div>

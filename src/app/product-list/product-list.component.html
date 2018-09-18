@@ -1,0 +1,44 @@
+<div class="form-inline my-2 my-lg-0 search">
+  <input type="text" class='search-icon form-control mr-sm-2 ' (keyup)="searchListener($event)" placeholder="Search">
+</div>
+
+
+<div class='main-section'>
+  <div class='filter-container'>
+    <form class='filter-container-genre' [formGroup]="genreForm">
+      <h3>Genre</h3>
+      <div><input class="form-input" type="checkbox" id="Action" formControlName="Action"><label for="Action">Action</label></div>
+      <div><input class="form-input" type="checkbox" id="Adventure" formControlName="Adventure"><label for="Adventure">Adventure</label></div>
+      <div><input class="form-input" type="checkbox" id="Sports" formControlName="Sports"><label for="Sports">Sports</label></div>
+      <div><input class="form-input" type="checkbox" id="Simulation" formControlName="Simulation"><label for="Simulation">Simulation</label></div>
+      <div><input class="form-input" type="checkbox" id="Role-Playing" formControlName="Role-Playing"><label for="Role-Playing">Role-Playing</label></div>
+    </form>
+    <form class='filter-container-price' [formGroup]="priceForm">
+      <h3>Price</h3>
+      <div><input class="form-input" type="checkbox" id="50" formControlName=50><label for="50">50 and less</label></div>
+      <div><input class="form-input" type="checkbox" id="40" formControlName=40><label for="40">40 and less</label></div>
+      <div><input class="form-input" type="checkbox" id="30" formControlName=30><label for="30">30 and less</label></div>
+      <div><input class="form-input" type="checkbox" id="20" formControlName=20><label for="20">20 and less</label></div>
+    </form>
+  </div>
+
+  <div class='product-container'>
+    <div class='product-container-list'>
+      <div *ngFor="let product of products" class="product-container-list-item">
+
+        <div class="product-container-list-item-image">
+          <img [src]=product.image class="image-property">
+        </div>
+
+        <div class="product-container-list-item-properties">
+          <div class="product-container-list-item-properties-value"><p><strong>Title:</strong> </p>{{product.name}}</div>
+          <div class="product-container-list-item-properties-value"><p><strong>Release Date:</strong> </p>{{product.releaseDate}}</div>
+          <div class="product-container-list-item-properties-value"><p><strong>Price:</strong> </p>{{product.price}}</div>
+          <button type="button" class="btn btn-outline-primary" (click)="onOrder($event)" id={{product.id}}>Order</button>
+        </div>
+
+      </div>
+      <div><ngb-pagination [collectionSize]="games.length + 1" [(page)]="page" (pageChange)="changePages($event)" aria-label="Default pagination"></ngb-pagination></div>
+    </div>
+  </div>
+</div>

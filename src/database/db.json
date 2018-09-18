@@ -1,0 +1,186 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "God of War",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/God_of_War_4_cover.jpg/220px-God_of_War_4_cover.jpg",
+      "price": 59.99,
+      "genre": "Action",
+      "releaseDate": "2018-04-20"
+    },
+    {
+      "id": 2,
+      "name": "Horizon Zero Dawn",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Horizon_Zero_Dawn.jpg/220px-Horizon_Zero_Dawn.jpg",
+      "price": 39.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-08-22"
+    },
+    {
+      "id": 3,
+      "name": "Detroit: Become Human",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Detroit_Become_Human.jpg/220px-Detroit_Become_Human.jpg",
+      "price": 59.99,
+      "genre": "Action, Storytelling",
+      "releaseDate": "2018-05-27"
+    },
+    {
+      "id": 4,
+      "name": "EA Sports UFC 3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf40XxGMo_v9ZTKUrf2DGo6tN7XkPqHVUesWvw3wG2wKfH5noTug",
+      "price": 49.99,
+      "genre": "Sports, Combat",
+      "releaseDate": "2018-01-30"
+    },
+    {
+      "id": 5,
+      "name": "Dragon Ball FighterZ",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/DBFZ_cover_art.jpg/220px-DBFZ_cover_art.jpg",
+      "price": 29.99,
+      "genre": "Action, Fighting",
+      "releaseDate": "2018-01-26"
+    },
+    {
+      "id": 6,
+      "name": "Monster Hunter: World",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Monster_Hunter_World_cover_art.jpg/220px-Monster_Hunter_World_cover_art.jpg",
+      "price": 49.99,
+      "genre": "Role-playing, Action, RPG",
+      "releaseDate": "2018-01-26"
+    },
+    {
+      "id": 7,
+      "name": "Gang Beasts",
+      "image": "https://i2.wp.com/wethenerdy.com/wp-content/uploads/2017/12/header.png?fit=960%2C450",
+      "price": 19.99,
+      "genre": "Action, Party",
+      "releaseDate": "2017-12-12"
+    },
+    {
+      "id": 8,
+      "name": "Dead Rising 4: Frank's Big Package",
+      "image": "https://media.takealot.com/covers_tsins/50254279/5055060945957-1-zoom.jpg",
+      "price": 19.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-12-05"
+    },
+    {
+      "id": 9,
+      "name": "The Sims 4",
+      "image": "https://s3.gaming-cdn.com/images/products/272/271x377/272.jpg",
+      "price": 39.99,
+      "genre": "Simulation, virtual life",
+      "releaseDate": "2017-12-05"
+    },
+    {
+      "id": 10,
+      "name": "Star Wars Battlefront II",
+      "image": "https://www.gamestop.com/common/images/lbox/146501b.jpg",
+      "price": 29.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-11-14"
+    },
+    {
+      "id": 11,
+      "name": "LEGO Marvel Super Heroes 2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Lego_Marvel_Super_Heroes_2_cover.png/220px-Lego_Marvel_Super_Heroes_2_cover.png",
+      "price": 39.99,
+      "genre": "Action, Platformer",
+      "releaseDate": "2017-11-14"
+    },
+    {
+      "id": 12,
+      "name": "L.A. Noire",
+      "image": "https://images.g2a.com/newlayout/323x433/1x1x0/3c8b750ce1c2/590aeb24ae653a1bce344ec7",
+      "price": 29.99,
+      "genre": "Adventure, Third-Person",
+      "releaseDate": "2017-11-14"
+    },
+    {
+      "id": 13,
+      "name": "Horizon Zero Dawn: The Frozen Wilds",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81IUU6NXcYL._AC_SX215_.jpg",
+      "price": 19.99,
+      "genre": "Action RPG, Role-Playing",
+      "releaseDate": "2017-11-07"
+    },
+    {
+      "id": 14,
+      "name": "Call of Duty: WWII",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Call_of_Duty_WWII_Cover_Art.jpg/220px-Call_of_Duty_WWII_Cover_Art.jpg",
+      "price": 49.99,
+      "genre": "Action, First-Person, Shooter",
+      "releaseDate": "2017-11-03"
+    },
+    {
+      "id": 15,
+      "name": "Assassin's Creed Origins",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Assassin%27s_Creed_Origins_Cover_Art.png/220px-Assassin%27s_Creed_Origins_Cover_Art.png",
+      "price": 45.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-10-27"
+    },
+    {
+      "id": 16,
+      "name": "Wolfenstein II: The New Colossus",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Wolfenstein-ii-the-new-colossus-cover.jpeg/220px-Wolfenstein-ii-the-new-colossus-cover.jpeg",
+      "price": 29.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-10-27"
+    },
+    {
+      "id": 17,
+      "name": "South Park: The Fractured But Whole",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/South_Park_The_Fractured_but_Whole_cover_art.jpg/220px-South_Park_The_Fractured_but_Whole_cover_art.jpg",
+      "price": 39.99,
+      "genre": "Role-playing",
+      "releaseDate": "2017-10-17"
+    },
+    {
+      "id": 18,
+      "name": "Gran Turismo Sport",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/GT_Sport_cover_art.jpg/220px-GT_Sport_cover_art.jpg",
+      "price": 39.99,
+      "genre": "Simulation, Racing",
+      "releaseDate": "2017-10-17"
+    },
+    {
+      "id": 19,
+      "name": "The Evil Within 2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/The_Evil_Within_2_cover_art.jpg/220px-The_Evil_Within_2_cover_art.jpg",
+      "price": 39.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-10-13"
+    },
+    {
+      "id": 20,
+      "name": "WWE 2K18",
+      "image": "https://s3.gaming-cdn.com/images/products/2108/271x377/2108.jpg",
+      "price": 39.99,
+      "genre": "Sports, Wrestling, Combat",
+      "releaseDate": "2017-10-13"
+    }
+  ],
+  "orders": [
+    {
+      "productId": 2,
+      "name": "Horizon Zero Dawn",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Horizon_Zero_Dawn.jpg/220px-Horizon_Zero_Dawn.jpg",
+      "price": 39.99,
+      "genre": "Action, Adventure",
+      "releaseDate": "2017-08-22",
+      "uniqueId": 1537290723017,
+      "id": 1
+    },
+    {
+      "productId": 6,
+      "name": "Monster Hunter: World",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Monster_Hunter_World_cover_art.jpg/220px-Monster_Hunter_World_cover_art.jpg",
+      "price": 49.99,
+      "genre": "Role-playing, Action, RPG",
+      "releaseDate": "2018-01-26",
+      "uniqueId": 1537296717636,
+      "id": 5
+    }
+  ]
+}
